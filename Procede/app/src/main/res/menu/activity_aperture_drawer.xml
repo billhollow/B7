@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/cliente"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_Providers"
+            android:icon="@drawable/proveedor"
+            android:title="Proveedores" />
+        <item
+            android:id="@+id/nav_Products"
+            android:icon="@drawable/producto"
+            android:title="Productos" />
+
+
+                <item
+                    android:id="@+id/nav_Buy"
+                    android:icon="@drawable/compras"
+                    android:title="Compras" />
+                <item
+                    android:id="@+id/nav_Sale"
+                    android:icon="@drawable/venta"
+                    android:title="Ventas" />
+
+
+
+
+                <item
+                    android:id="@+id/nav_History"
+                    android:icon="@drawable/historial"
+                    android:title="Historial de Acciones" />
+                <item
+                    android:id="@+id/nav_Sucursal"
+                    android:icon="@drawable/sucursal"
+                    android:title="Lista de Sucursales" />
+
+
+
+        
+    </group>
+
+
+
+</menu>
